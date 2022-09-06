@@ -1,5 +1,7 @@
-﻿Namespace WinForms_MapControl_Lesson2
-    Partial Public Class Form1
+Namespace WinForms_MapControl_Lesson2
+
+    Partial Class Form1
+
         ''' <summary>
         ''' Required designer variable.
         ''' </summary>
@@ -10,36 +12,36 @@
         ''' </summary>
         ''' <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         Protected Overrides Sub Dispose(ByVal disposing As Boolean)
-            If disposing AndAlso (components IsNot Nothing) Then
-                components.Dispose()
+            If disposing AndAlso (Me.components IsNot Nothing) Then
+                Me.components.Dispose()
             End If
+
             MyBase.Dispose(disposing)
         End Sub
 
-        #Region "Windows Form Designer generated code"
-
+'#Region "Windows Form Designer generated code"
         ''' <summary>
         ''' Required method for Designer support - do not modify
         ''' the contents of this method with the code editor.
         ''' </summary>
         Private Sub InitializeComponent()
-            Dim cartesianMapCoordinateSystem1 As New DevExpress.XtraMap.CartesianMapCoordinateSystem()
-            Dim vectorItemsLayer1 As New DevExpress.XtraMap.VectorItemsLayer()
-            Dim keyColorColorizer1 As New DevExpress.XtraMap.KeyColorColorizer()
-            Dim attributeItemKeyProvider1 As New DevExpress.XtraMap.AttributeItemKeyProvider()
-            Dim colorizerKeyItem1 As New DevExpress.XtraMap.ColorizerKeyItem()
-            Dim colorizerKeyItem2 As New DevExpress.XtraMap.ColorizerKeyItem()
-            Dim colorizerKeyItem3 As New DevExpress.XtraMap.ColorizerKeyItem()
-            Dim colorizerKeyItem4 As New DevExpress.XtraMap.ColorizerKeyItem()
-            Dim colorizerKeyItem5 As New DevExpress.XtraMap.ColorizerKeyItem()
-            Dim colorizerKeyItem6 As New DevExpress.XtraMap.ColorizerKeyItem()
-            Dim colorizerKeyItem7 As New DevExpress.XtraMap.ColorizerKeyItem()
-            Dim colorizerKeyItem8 As New DevExpress.XtraMap.ColorizerKeyItem()
-            Dim shapefileDataAdapter1 As New DevExpress.XtraMap.ShapefileDataAdapter()
-            Dim cartesianSourceCoordinateSystem1 As New DevExpress.XtraMap.CartesianSourceCoordinateSystem()
-            Dim colorListLegend1 As New DevExpress.XtraMap.ColorListLegend()
+            Dim cartesianMapCoordinateSystem1 As DevExpress.XtraMap.CartesianMapCoordinateSystem = New DevExpress.XtraMap.CartesianMapCoordinateSystem()
+            Dim vectorItemsLayer1 As DevExpress.XtraMap.VectorItemsLayer = New DevExpress.XtraMap.VectorItemsLayer()
+            Dim keyColorColorizer1 As DevExpress.XtraMap.KeyColorColorizer = New DevExpress.XtraMap.KeyColorColorizer()
+            Dim attributeItemKeyProvider1 As DevExpress.XtraMap.AttributeItemKeyProvider = New DevExpress.XtraMap.AttributeItemKeyProvider()
+            Dim colorizerKeyItem1 As DevExpress.XtraMap.ColorizerKeyItem = New DevExpress.XtraMap.ColorizerKeyItem()
+            Dim colorizerKeyItem2 As DevExpress.XtraMap.ColorizerKeyItem = New DevExpress.XtraMap.ColorizerKeyItem()
+            Dim colorizerKeyItem3 As DevExpress.XtraMap.ColorizerKeyItem = New DevExpress.XtraMap.ColorizerKeyItem()
+            Dim colorizerKeyItem4 As DevExpress.XtraMap.ColorizerKeyItem = New DevExpress.XtraMap.ColorizerKeyItem()
+            Dim colorizerKeyItem5 As DevExpress.XtraMap.ColorizerKeyItem = New DevExpress.XtraMap.ColorizerKeyItem()
+            Dim colorizerKeyItem6 As DevExpress.XtraMap.ColorizerKeyItem = New DevExpress.XtraMap.ColorizerKeyItem()
+            Dim colorizerKeyItem7 As DevExpress.XtraMap.ColorizerKeyItem = New DevExpress.XtraMap.ColorizerKeyItem()
+            Dim colorizerKeyItem8 As DevExpress.XtraMap.ColorizerKeyItem = New DevExpress.XtraMap.ColorizerKeyItem()
+            Dim shapefileDataAdapter1 As DevExpress.XtraMap.ShapefileDataAdapter = New DevExpress.XtraMap.ShapefileDataAdapter()
+            Dim cartesianSourceCoordinateSystem1 As DevExpress.XtraMap.CartesianSourceCoordinateSystem = New DevExpress.XtraMap.CartesianSourceCoordinateSystem()
+            Dim colorListLegend1 As DevExpress.XtraMap.ColorListLegend = New DevExpress.XtraMap.ColorListLegend()
             Me.mapControl1 = New DevExpress.XtraMap.MapControl()
-            DirectCast(Me.mapControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.mapControl1), System.ComponentModel.ISupportInitialize).BeginInit()
             Me.SuspendLayout()
             ' 
             ' mapControl1
@@ -99,14 +101,11 @@
             Me.Controls.Add(Me.mapControl1)
             Me.Name = "Form1"
             Me.Text = "Form1"
-            DirectCast(Me.mapControl1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.mapControl1), System.ComponentModel.ISupportInitialize).EndInit()
             Me.ResumeLayout(False)
-
         End Sub
 
-        #End Region
-
+'#End Region
         Private mapControl1 As DevExpress.XtraMap.MapControl
     End Class
 End Namespace
-
