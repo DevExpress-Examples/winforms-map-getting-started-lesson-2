@@ -10,7 +10,7 @@ This repository contains the mapping application project that you get after comp
 
 ![Resulting map](Images/resulting-map.png)
 
-## Files to Look At
+## Files to Review
 
 * [Form1.cs](./CS/WinForms_MapControl_Lesson2/Form1.Designer.cs) (VB: [Form1.vb](./VB/WinForms_MapControl_Lesson2/Form1.Designer.vb))
 
