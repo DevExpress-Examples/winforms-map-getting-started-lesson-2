@@ -33,7 +33,7 @@ This repository contains the mapping application project that you get after comp
 * [Load Data From a Shapefile](https://github.com/DevExpress-Examples/how-to-load-data-from-a-shapefile-t155190)
 * [Load Data From a KML File](https://github.com/DevExpress-Examples/how-to-load-data-from-a-kml-file-t140303)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-map-getting-started-lesson-2&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-map-getting-started-lesson-2&~~~was_helpful=no)
 
